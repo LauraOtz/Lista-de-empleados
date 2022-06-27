@@ -7,5 +7,23 @@ img {
 .imagen {
     margin: auto;
     display: block;
-    
+
 }
+.card{
+    flex-wrap: wrap;
+}
+.card:hover{
+    border:5px solid #52f75a;
+ }
+
+ div .contenedorImagen:hover {
+    border:2.5px solid #f80c0c;
+ }
+
+ div .list:hover{
+    border:5px solid #081d7c;
+ }
+ 
+ .list {
+    background-size: auto;
+ }

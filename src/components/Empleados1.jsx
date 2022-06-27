@@ -1,5 +1,6 @@
 import React from 'react'
 import Empleado from './Empleado'
+import tarjetasEstilos from "../css/tarjetasEstilos.css";
 import imagen1 from "../assets/imagen1.jpg";
 import imagen2 from "../assets/imagen2.jpg";
 import imagen3 from "../assets/imagen3.jpg";
@@ -19,7 +20,7 @@ const empleados = [
 function empleados1() {
   
   return (
-    <div className='container d-flex justify-content-center h-100 align-items-center '>
+    <div className='container d-flex justify-content-center h-100 align-items-center list'>
       <div className='row'>
         { empleados.map((empleado) => (
           <div className='col-md-4' key={empleado.id}>
